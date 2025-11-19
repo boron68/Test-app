@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Brawl App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Paint Brawl Special</h1>
+        <div class="image-container">
+            <img id="paintImage" src="paint_brawl_special_pin.png" alt="Paint Brawl Special">
+        </div>
+        <div class="controls">
+            <button onclick="sendData()">Надіслати дані на сервер</button>
+            <button onclick="changeColor()">Змінити колір фону</button>
+        </div>
+        <div id="response" class="response"></div>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
